@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+
+.calculadora {
+  width: 355px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(155, 155, 174);
+}
+
+
+input[type="button"] {
+  width: 70px;
+  height: 40px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+input[type="button"]:last-child {
+  margin-right: 0;
+}
